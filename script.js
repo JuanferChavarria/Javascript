@@ -24,7 +24,7 @@ if (confirmation) {
 
                     case "1":
 
-                        alert("Naciste en el " + (anio - edad))
+                        alert("Naciste en el " + calculoNacimiento(anio,edad))
                         break;
 
                     case "2":
@@ -54,4 +54,11 @@ if (confirmation) {
 
     } while (confirmation)
 
+} 
+
+
+function calculoNacimiento (number1,number2){
+    let nacimiento;
+    nacimiento = number1 - number2;
+    return nacimiento
 } 
